@@ -1,0 +1,17 @@
+.servises{
+    
+    text-align: center;
+
+    &__heading{
+        margin: 20rem;
+        text-align: center;
+    }
+
+    &__box{
+        &:not(:last-child){
+            margin-right: 29rem;
+        }
+
+    }
+}
+
